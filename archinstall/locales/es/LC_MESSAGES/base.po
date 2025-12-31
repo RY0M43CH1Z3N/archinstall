@@ -27,22 +27,22 @@ msgid "Would you like to use swap on zram?"
 msgstr "¿Le gustaría usar swap en zram?"
 
 msgid "Desired hostname for the installation: "
-msgstr "Nombre de host deseado para la instalación: "
+msgstr "Nombre del huésped deseado para la instalación: "
 
 msgid "Username for required superuser with sudo privileges: "
 msgstr "Nombre de usuario para el superusuario con privilegios sudo: "
 
 msgid "Any additional users to install (leave blank for no users): "
-msgstr "Algún usuario adicional a instalar (déjelo en blanco para no agregar ninguno): "
+msgstr "Usuarios adicionales a instalar (déjelo en blanco para no agregar ninguno): "
 
 msgid "Should this user be a superuser (sudoer)?"
-msgstr "Debería este usuario ser un superusuario (sudoer)?"
+msgstr "¿Debería este usuario ser un superusuario (sudoer)?"
 
 msgid "Select a timezone"
 msgstr "Seleccione una zona horaria"
 
 msgid "Would you like to use GRUB as a bootloader instead of systemd-boot?"
-msgstr "Te gustaría usar GRUB como gestor de arranque en lugar de systemd-boot?"
+msgstr "¿Te gustaría usar GRUB como gestor de arranque en lugar de systemd-boot?"
 
 msgid "Choose a bootloader"
 msgstr "Elija un gestor de arranque"
@@ -525,7 +525,7 @@ msgid "The password you are using seems to be weak,"
 msgstr "La contraseña que está utilizando parece ser débil,"
 
 msgid "are you sure you want to use it?"
-msgstr "¿Está seguro de querer usarlo?"
+msgstr "¿está seguro de querer usarlo?"
 
 msgid "Optional repositories"
 msgstr "Repositorios opcionales"
@@ -626,7 +626,7 @@ msgid "No iface specified for manual configuration"
 msgstr "No se especificó iface para la configuración manual"
 
 msgid "Manual nic configuration with no auto DHCP requires an IP address"
-msgstr "La configuración manual de la NIC sin DHCP automático requiere una dirección IP"
+msgstr "La configuración manual de red sin DHCP automático requiere una dirección IP"
 
 msgid "Add interface"
 msgstr "Añadir interfaz"
@@ -1060,7 +1060,7 @@ msgid "Should this profile be enabled for installation?"
 msgstr "¿Debería habilitarse este perfil para la instalación?"
 
 msgid "Create your own"
-msgstr "Crear tu propio"
+msgstr "Crear uno propio"
 
 msgid ""
 "\n"
@@ -1229,7 +1229,7 @@ msgid "Invalid input! Try again with a valid input [or 0 to disable]"
 msgstr "¡Entrada no válida! Intente nuevamente con una entrada válida [o 0 para deshabilitar]"
 
 msgid "Hyprland needs access to your seat (collection of hardware devices i.e. keyboard, mouse, etc)"
-msgstr "Hyprland necesita acceso a su asiento (colección de dispositivos de hardware, es decir, teclado, mouse, etc.)"
+msgstr "Hyprland necesita acceso a su asiento (listar dispositivos de hardware, es decir, teclado, mouse, etc.)"
 
 msgid ""
 "\n"
@@ -1581,7 +1581,7 @@ msgid "Delete custom server"
 msgstr "Eliminar servidor personalizado"
 
 msgid "Server url"
-msgstr "URL del servidor"
+msgstr "Enlace del servidor"
 
 msgid "Select regions"
 msgstr "Seleccione regiones"
@@ -1617,10 +1617,10 @@ msgid "Exit help"
 msgstr "Ayuda para salir"
 
 msgid "Preview scroll up"
-msgstr ""
+msgstr "Vista previa desplazar arriba"
 
 msgid "Preview scroll down"
-msgstr ""
+msgstr "Vista previa desplazar abajo"
 
 msgid "Move up"
 msgstr "Subir"
@@ -1662,13 +1662,13 @@ msgid "Exit search mode"
 msgstr "Salir del modo de búsqueda"
 
 msgid "labwc needs access to your seat (collection of hardware devices i.e. keyboard, mouse, etc)"
-msgstr "labwc necesita acceso a su asiento (colección de dispositivos de hardware, es decir, teclado, ratón, etc.)"
+msgstr "labwc necesita acceso a su asiento (listar dispositivos de hardware, es decir, teclado, ratón, etc.)"
 
 msgid "Choose an option to give labwc access to your hardware"
 msgstr "Elija una opción para darle a labwc acceso a su hardware"
 
 msgid "niri needs access to your seat (collection of hardware devices i.e. keyboard, mouse, etc)"
-msgstr "niri necesita acceso a su asiento (colección de dispositivos de hardware, es decir, teclado, ratón, etc.)"
+msgstr "niri necesita acceso a su asiento (listar dispositivos de hardware, es decir, teclado, ratón, etc.)"
 
 msgid "Choose an option to give niri access to your hardware"
 msgstr "Elija una opción para darle a niri acceso a su hardware"
@@ -1692,53 +1692,43 @@ msgid "Installation completed"
 msgstr "Instalación completada"
 
 msgid "What would you like to do next?"
-msgstr "¿Qué le gustaría hacer a continuación?"
+msgstr "¿Qué te gustaría hacer a continuación?"
 
-#, python-brace-format
 msgid "Select which mode to configure for \"{}\""
 msgstr "Seleccione qué modo configurar para \"{}\""
 
-#, fuzzy
 msgid "Incorrect credentials file decryption password"
-msgstr "Contraseña de cifrado de disco"
+msgstr "Contraseña incorrecta de desencriptado del fichero de credenciales"
 
-#, fuzzy
 msgid "Incorrect password"
-msgstr "Contraseña de root"
+msgstr "Contraseña incorrecta"
 
-#, fuzzy
 msgid "Credentials file decryption password"
-msgstr "Contraseña de cifrado de disco"
+msgstr "Contraseña de desencriptado del archivo de credenciales"
 
-#, fuzzy
 msgid "Do you want to encrypt the user_credentials.json file?"
-msgstr "¿Desea guardar los archivos de configuración en {}?"
+msgstr "¿Desea encriptar el archivo user_credentials.json?"
 
-#, fuzzy
 msgid "Credentials file encryption password"
-msgstr "Contraseña de cifrado de disco"
+msgstr "Contraseña de encriptado del archivo de credenciales"
 
-#, fuzzy, python-brace-format
 msgid "Repositories: {}"
-msgstr "Nombre del repositorio"
+msgstr "Repositorios: {}"
 
-#, fuzzy
 msgid "New version available"
-msgstr "No hay dispositivos HSM disponibles"
+msgstr "Nueva versión disponible"
 
-#, fuzzy
 msgid "Passwordless login"
 msgstr "Inicio de sesión sin contraseña"
 
 msgid "Second factor login"
-msgstr ""
+msgstr "Inicio de sesión con segundo factor"
 
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
-#, fuzzy
 msgid "Would you like to configure Bluetooth?"
-msgstr "¿Quiere continuar?"
+msgstr "¿Quieres configurar el BLuetooth?"
 
 msgid "Authentication"
 msgstr "Autenticación"
@@ -1765,9 +1755,9 @@ msgstr "El valor no puede estár vacío"
 msgid "Snapshot type"
 msgstr "Tipo de snapshot"
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Snapshot type: {}"
-msgstr "Tipo de entorno: {}"
+msgstr "Tipo de snapshot: {}"
 
 msgid "U2F login setup"
 msgstr "Configuración de inicio de sesión U2F"
@@ -1778,13 +1768,12 @@ msgstr "No se encontró dispositivos U2F"
 msgid "U2F Login Method"
 msgstr "Método de inicio de sesión U2F"
 
-#, fuzzy
 msgid "Enable passwordless sudo?"
-msgstr "Habilitar sudo sin contraseña?"
+msgstr "¿Habilitar sudo sin contraseña?"
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Setting up U2F device for user: {}"
-msgstr "Seleccione un dispositivo FIDO2 para usar con HSM"
+msgstr "Configurando U2F para el usuario: {}"
 
 msgid "You may need to enter the PIN and then touch your U2F device to register it"
 msgstr "Puede que deba ingresar su PIN antes de tocar su dispositivo U2F para registrarlo"
@@ -1792,65 +1781,59 @@ msgstr "Puede que deba ingresar su PIN antes de tocar su dispositivo U2F para re
 msgid "Starting device modifications in "
 msgstr "Iniciando modificaciones en dispositivo en "
 
-#, fuzzy
 msgid "No network connection found"
-msgstr "Sin configuración de red"
+msgstr "Ninguna conexión de red encontrada"
 
-#, fuzzy
 msgid "Would you like to connect to a Wifi?"
-msgstr "¿Quiere continuar?"
+msgstr "¿Quieres conectarte por Wifi?"
 
-#, fuzzy
 msgid "No wifi interface found"
-msgstr "Configurar interfaces"
+msgstr "No se encontraron interfaces wifi"
 
-#, fuzzy
 msgid "Select wifi network to connect to"
-msgstr "Seleccione una interfaz de red para configurar"
+msgstr "Seleccione una red wifi a la que conectarse"
 
 msgid "Scanning wifi networks..."
 msgstr "Buscando redes de wifi..."
 
-#, fuzzy
 msgid "No wifi networks found"
-msgstr "Sin configuración de red"
+msgstr "No se encontraron redes wifi"
 
 msgid "Failed setting up wifi"
 msgstr "Error configurando wifi"
 
-#, fuzzy
 msgid "Enter wifi password"
-msgstr "Ingrese una contraseña: "
+msgstr "Ingrese la contraseña del wifi: "
 
 msgid "Ok"
 msgstr "Ok"
 
 msgid "Removable"
-msgstr ""
+msgstr "Eliminable"
 
 msgid "Install to removable location"
-msgstr ""
+msgstr "Instalar en ubicación eliminable"
 
 msgid "Will install to /EFI/BOOT/ (removable location)"
-msgstr ""
+msgstr "Se instalará en /EFI/BOOT/ (ubicación eliminable)"
 
 msgid "Will install to standard location with NVRAM entry"
-msgstr ""
+msgstr "Se instalará en una ubicación normal como entrada NVRAM"
 
 msgid "Would you like to install the bootloader to the default removable media search location?"
-msgstr ""
+msgstr "¿Te gustaría instalar el cargador de arranque en la ubicación eliminable por defecto que se encuentre?"
 
 msgid "This installs the bootloader to /EFI/BOOT/BOOTX64.EFI (or similar) which is useful for:"
-msgstr ""
+msgstr "Esto instala el cargador de arranque /EFI/BOOT/BOOTX64.EFI (o similar) que es útil para:"
 
 msgid "USB drives or other portable external media."
-msgstr ""
+msgstr "Dispositivos USB u otros medios externos."
 
 msgid "Systems where you want the disk to be bootable on any computer."
-msgstr ""
+msgstr "Sistemas donde quieres que el disco sea arrancable en cualquier ordenador."
 
 msgid "Firmware that does not properly support NVRAM boot entries."
-msgstr ""
+msgstr "Firmware que no es propietario, soporta entradas NVRAM en el arranque."
 
 #~ msgid "Add :"
 #~ msgstr "Añadir :"
